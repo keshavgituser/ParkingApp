@@ -308,7 +308,7 @@ public class ParkingController {
 			/*Booking Based on user Type RESERVED user is Prioritized for booking */
 			for (Slot slot : availableSlots) {
 				//try to book slot based on user TYPE(RESERVED)
-				if(slot.getSlotType().toString()==userType.RESERVED.toString())
+				if(slot.getSlotType().toString()==userType.toString())
 				{
 					bookedSlot=parkingService.updateSlot(slot.getSlotNumber(),bookTime,checkinTime,name,SLOTTYPE.RESERVED,SLOTSTATUS.BOOKED);
 					return new ResponseEntity<String>(

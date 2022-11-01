@@ -6667,3 +6667,68 @@ Caused by: java.lang.Error: Unresolved compilation problems:
 2022-11-01 19:15:54.071  INFO 11796 --- [RMI TCP Connection(736)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2022-11-01 19:15:54.072  INFO 11796 --- [RMI TCP Connection(736)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-189 - Shutdown initiated...
 2022-11-01 19:15:54.073  INFO 11796 --- [RMI TCP Connection(736)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-189 - Shutdown completed.
+2022-11-01 19:29:56.273  INFO 11360 --- [restartedMain] com.practice.parkapp.ParkappApplication  : Starting ParkappApplication using Java 15.0.2 on LIN25003875 with PID 11360 (C:\Users\kmahendr\OneDrive - Capgemini\Documents\Vodafone Project\Practice\parkapp\target\classes started by kmahendr in C:\Users\kmahendr\OneDrive - Capgemini\Documents\Vodafone Project\Practice\parkapp)
+2022-11-01 19:29:56.277  INFO 11360 --- [restartedMain] com.practice.parkapp.ParkappApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-11-01 19:29:56.343  INFO 11360 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-01 19:29:56.344  INFO 11360 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-01 19:29:57.486  INFO 11360 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-01 19:29:57.571  INFO 11360 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 71 ms. Found 2 JPA repository interfaces.
+2022-11-01 19:29:58.643  INFO 11360 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8085 (http)
+2022-11-01 19:29:58.662  INFO 11360 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-01 19:29:58.663  INFO 11360 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-01 19:29:58.851  INFO 11360 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-01 19:29:58.853  INFO 11360 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2509 ms
+2022-11-01 19:29:59.102  INFO 11360 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-01 19:29:59.187  INFO 11360 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-11-01 19:29:59.445  INFO 11360 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-01 19:29:59.613  INFO 11360 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-11-01 19:29:59.900  INFO 11360 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-11-01 19:29:59.930  INFO 11360 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-11-01 19:30:01.027  INFO 11360 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-01 19:30:01.039  INFO 11360 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-01 19:30:04.581  WARN 11360 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-01 19:30:06.118  INFO 11360 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-11-01 19:30:07.793  INFO 11360 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-01 19:30:09.752  INFO 11360 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8085 (http) with context path ''
+2022-11-01 19:30:09.777  INFO 11360 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-11-01 19:30:09.960  INFO 11360 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-11-01 19:30:10.263  INFO 11360 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-11-01 19:30:11.403  INFO 11360 --- [restartedMain] com.practice.parkapp.ParkappApplication  : Started ParkappApplication in 15.583 seconds (JVM running for 16.858)
+2022-11-01 19:32:48.476  INFO 11360 --- [http-nio-8085-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-01 19:32:48.478  INFO 11360 --- [http-nio-8085-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-01 19:32:48.482  INFO 11360 --- [http-nio-8085-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-11-01 19:42:53.418  INFO 11360 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-11-01 19:42:53.444  INFO 11360 --- [Thread-4] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-11-01 19:42:53.447  INFO 11360 --- [Thread-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-11-01 19:42:53.459  INFO 11360 --- [Thread-4] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-01 19:42:53.462  INFO 11360 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-11-01 19:42:53.474  INFO 11360 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-11-01 19:42:53.653  INFO 11360 --- [restartedMain] com.practice.parkapp.ParkappApplication  : Starting ParkappApplication using Java 15.0.2 on LIN25003875 with PID 11360 (C:\Users\kmahendr\OneDrive - Capgemini\Documents\Vodafone Project\Practice\parkapp\target\classes started by kmahendr in C:\Users\kmahendr\OneDrive - Capgemini\Documents\Vodafone Project\Practice\parkapp)
+2022-11-01 19:42:53.655  INFO 11360 --- [restartedMain] com.practice.parkapp.ParkappApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-11-01 19:42:54.009  INFO 11360 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-01 19:42:54.027  INFO 11360 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17 ms. Found 2 JPA repository interfaces.
+2022-11-01 19:42:54.165  INFO 11360 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8085 (http)
+2022-11-01 19:42:54.166  INFO 11360 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-01 19:42:54.166  INFO 11360 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-01 19:42:54.198  INFO 11360 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-01 19:42:54.199  INFO 11360 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 537 ms
+2022-11-01 19:42:54.242  INFO 11360 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-01 19:42:54.247  INFO 11360 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2022-11-01 19:42:54.325  INFO 11360 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2022-11-01 19:42:54.326  INFO 11360 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-11-01 19:42:54.380  INFO 11360 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-01 19:42:54.380  INFO 11360 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-01 19:42:54.545  WARN 11360 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-01 19:42:54.590  INFO 11360 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-11-01 19:42:54.649  INFO 11360 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-01 19:42:54.717  INFO 11360 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8085 (http) with context path ''
+2022-11-01 19:42:54.717  INFO 11360 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-11-01 19:42:54.719  INFO 11360 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-11-01 19:42:54.725  INFO 11360 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-11-01 19:42:54.772  INFO 11360 --- [restartedMain] com.practice.parkapp.ParkappApplication  : Started ParkappApplication in 1.192 seconds (JVM running for 780.223)
+2022-11-01 19:42:54.775  INFO 11360 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-11-01 19:43:24.790  INFO 11360 --- [RMI TCP Connection(27)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-11-01 19:43:24.801  INFO 11360 --- [RMI TCP Connection(27)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-11-01 19:43:24.809  INFO 11360 --- [RMI TCP Connection(27)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-01 19:43:24.809  INFO 11360 --- [RMI TCP Connection(27)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2022-11-01 19:43:24.812  INFO 11360 --- [RMI TCP Connection(27)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
